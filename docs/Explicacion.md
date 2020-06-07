@@ -11,3 +11,8 @@ mientras que los demás archivos tienen USD/mt (tonelada métrica). Aplicamos la
 def st_to_mt(st):
   return st/1.10231131
 ```
+Hay datos de SC y SR desde el 23-11-2015, pero los datos de HC y HU no empiezan hasta el 11-03-2019. Desde esa fecha hasta la última entrada sólo hay 292 datos.
+
+Son muy pocos datos para poder entrenar un modelo y hacer predicciones fiables.
+En efecto, cuando hacermos un modelo con Prophet, obtenemos un 93% de precisión.
+Con tan pocos datos, el modelo ha 'memorizado' (overfitting), y al hacer la predicción salen valores extraños.
