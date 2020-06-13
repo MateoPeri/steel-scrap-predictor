@@ -7,5 +7,10 @@
 - **HC:** Hot Rolled Coil China (bobina laminada en caliente, procedente de China)
 - **HU:** Hot Rolled Coild US (bobina laminada en caliente, procedente de EEUU)
 
+## Datos
+- **Closing Prices**: Precios de cada metal.
+- **CSF TV**: Traded volumes
+- **CSF EOI**: Exchange Open Interest
+
 ## Objetivo
 Predecir el precio de SC a partir de datos históricos de los demás tipos de metal.
